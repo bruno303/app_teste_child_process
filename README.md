@@ -44,4 +44,4 @@ http://127.0.0.1:3000/async?max=1500000000
 
 ## Licença
 
-O projeto está licenciado sobre a Licença MIT - veja o arquivo LICENSE.MD para mais detalhes
+O projeto está licenciado sobre a Licença MIT - veja o arquivo [LICENSE.md](https://github.com/bruno303/app_teste_child_process/blob/master/LICENSE.md) para mais detalhes
