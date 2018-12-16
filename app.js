@@ -24,8 +24,8 @@ app.route('/async')
     console.log(`${data.toLocaleDateString()} ${data.toLocaleTimeString()}: Execução assíncrona iniciada`);
     const maxSum = req.query.max;
     let child = child_process.fork('./src/cpu_bound_tasks/sum_numbers.js');
-    child.on('message', sum => {
-        res.end(`The sum is ${sum}`);
+    child.on('message', obj => {
+        res.end(`The sum is ${obj.sum}`);
         child.kill();
     });
 
@@ -33,7 +33,7 @@ app.route('/async')
         console.log('Thread is dead');
     });
 
-    child.send(maxSum);
+    child.send({ maxSum });
 });
 
 app.listen(PORT, () => {
