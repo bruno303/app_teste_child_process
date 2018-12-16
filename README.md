@@ -42,3 +42,6 @@ http://127.0.0.1:3000/async?max=1500000000
 
 * **Bruno Oliveira** - [bruno303](https://github.com/bruno303)
 
+## Licença
+
+O projeto está licenciado sobre a Licença MIT - veja o arquivo LICENSE.MD para mais detalhes
