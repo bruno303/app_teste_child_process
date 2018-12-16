@@ -10,14 +10,19 @@ Passo a passo para rodar a aplicação:
 
 * [NodeJs](https://nodejs.org/en/)
 * [Npm](https://www.npmjs.com/)
+* [Nodemon](https://nodemon.io/)
 
 ### Instalação
 
 * Clone o projeto para um diretório da sua máquina local.
 * Use o comando do Npm para baixar as dependências do projeto.
-
 ```
 npm install
+```
+
+* Instale o nodemon para rodar o projeto.
+```
+npm i nodemon -g
 ```
 
 * Para executar a aplicação, execute o script npm start
